@@ -59,7 +59,9 @@ function repetirPalabra(palabra, num){
     num = prompt("¿Cuantas veces quieres que se repita la palabra?:")
 
     for (let i = 0; i != num; i++){
-        console.log(palabra)      
+        if (num != null){
+            console.log(palabra)   
+        }   
     }
 }
 
