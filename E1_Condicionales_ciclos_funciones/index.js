@@ -42,7 +42,7 @@ multiploCinco()
 //Ejercicio 4
 
 function imprimir(num){
-    num = prompt("Ingrese un numero:")
+    num = prompt("Ingrese un numero:") || 0
 
     for (let i = 0; i != num; i++){
         console.log(i)      
@@ -56,14 +56,13 @@ imprimir()
 
 function repetirPalabra(palabra, num){
     palabra = prompt("Escriba una palabra:")
-    num = prompt("¿Cuantas veces quieres que se repita la palabra?:")
+    num = prompt("¿Cuantas veces quieres que se repita la palabra?:") || 0
 
-    for (let i = 0; i != num; i++){
-        if (num != null){
-            console.log(palabra)   
-        }   
+for (let i = 0; i != num; i++){
+        console.log(palabra)     
     }
-}
+}    
+
 
 repetirPalabra()
 
