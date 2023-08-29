@@ -9,6 +9,7 @@ function esPar(num){
         alert("Es impar")
     }
 }
+esPar()
 
 // Ejercicio 2
 
@@ -24,7 +25,7 @@ function esMayor(num1, num2){
         alert(`Numeros nulos.`)
     }
 }
-
+esMayor()
 
 //Ejercicio 3
 
@@ -36,7 +37,7 @@ function multiploCinco(num){
         alert(`${num} no es multiplo de 5`)
     }
 }
-
+multiploCinco()
 
 //Ejercicio 4
 
@@ -49,7 +50,7 @@ function imprimir(num){
     i = num
     console.log(i)
 }
-//imprimir()
+imprimir()
 
 //Ejercicio 5
 
@@ -62,7 +63,7 @@ function repetirPalabra(palabra, num){
     }
 }
 
-//repetirPalabra()
+repetirPalabra()
 
 //Ejercicio 6
 
