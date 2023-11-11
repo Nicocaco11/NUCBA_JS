@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E4: Asincronismo + APIs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="poke__header">
+        <div class="poke__content">
+            <img src="src/pokelogo.png" alt="pokelogo">
+        </div>
+    </header>
+
+    <section id="poke__id">
+        <h2>Introduce la ID del pokemón:</h2>
+        <input id="poke__input" type="number">
+        <label onclick="buscarPokemon()" for="poke__input">Enviar</label>
+    </section>
+
+    <section id="poke__information">
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
