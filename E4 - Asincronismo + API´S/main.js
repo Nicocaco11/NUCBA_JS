@@ -1,8 +1,10 @@
+const pokeCard = document.getElementById(`poke__information`)
+
 const buscarPokemon = () => {
     const pokemonId = document.getElementById('poke__input').value;
 
     if (isNaN(pokemonId) || pokemonId <= 0) {
-        alert('Por favor, ingresa una ID de Pokemon válida (número mayor a 0).');
+        pokeCard.innerHTML = `<h1>POKEMÓN INVALIDO!</h1>`
         return
     }
 
@@ -10,8 +12,6 @@ const buscarPokemon = () => {
 }
 
 const mostrarPanel = (data) => {
-
-    const pokeCard = document.getElementById(`poke__information`)
 
     pokeCard.innerHTML = `        
     <div class="poke__card">
